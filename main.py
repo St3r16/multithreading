@@ -68,7 +68,7 @@ try:
     for i in range(len(b)):
         temp = input().split()
         if len(temp) != len(b):
-            print('Не верное количество значений, ваша текущая размерность = ', len(b))
+            print(f'Не верное количество значений, ваша текущая размерность ={len(b)}')
             quit()
         MF.append(temp)
     #  print(MF)
@@ -79,7 +79,7 @@ try:
     for i in range(len(b)):
         temp = input().split()
         if len(temp) != len(b):
-            print('Не верное количество значений, ваша текущая размерность = ', len(b))
+            print(f'Не верное количество значений, ваша текущая размерность ={len(b)}')
             quit()
         MH.append(temp)
     MH = np.array(MH, dtype=float)
@@ -89,7 +89,7 @@ try:
     for i in range(len(b)):
         temp = input().split()
         if len(temp) != len(b):
-            print('Не верное количество значений, ваша текущая размерность = ', len(b))
+            print(f'Не верное количество значений, ваша текущая размерность ={len(b)}')
             quit()
         MK.append(temp)
 
@@ -100,7 +100,7 @@ try:
     for i in range(len(b)):
         temp = input().split()
         if len(temp) != len(b):
-            print('Не верное количество значений, ваша текущая размерность = ', len(b))
+            print(f'Не верное количество значений, ваша текущая размерность ={len(b)}')
             quit()
         MA.append(temp)
 
@@ -111,7 +111,7 @@ try:
     for i in range(len(b)):
         temp = input().split()
         if len(temp) != len(b):
-            print('Не верное количество значений, ваша текущая размерность = ', len(b))
+            print(f'Не верное количество значений, ваша текущая размерность ={len(b)}')
             quit()
         ME.append(temp)
 
